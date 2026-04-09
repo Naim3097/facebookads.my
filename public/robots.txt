@@ -1,0 +1,10 @@
+# https://facebookads.my robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin/utility paths
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://facebookads.my/sitemap.xml
