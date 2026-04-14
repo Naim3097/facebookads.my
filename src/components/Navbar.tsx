@@ -16,8 +16,8 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
-        <Link to="/" className="text-xl font-extrabold text-gray-900 tracking-tight">
-          FBAds<span className="text-primary">.my</span>
+        <Link to="/" className="flex items-center">
+          <img src="/fbads-logo.png" alt="FBAds.my" className="h-8" />
         </Link>
 
         {/* Desktop nav */}
@@ -44,11 +44,26 @@ export default function Navbar() {
           className="md:hidden p-2 rounded-lg hover:bg-gray-100"
           aria-label={open ? 'Close menu' : 'Open menu'}
         >
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
             {open ? (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
             ) : (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
             )}
           </svg>
         </button>

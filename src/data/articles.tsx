@@ -134,7 +134,7 @@ Start with RM30-50/day per ad set. This gives META's algorithm enough data to op
 
 The best time to start Facebook advertising was yesterday. The second best time is now. Begin with a simple campaign structure, install your pixel, and commit to testing for at least 30 days before judging results.
 
-Focus on creating valuable content, building a landing page that converts (tools like [Nexova](https://nexova.my), Carrd, or Unbounce can help), and systematically testing your targeting and creative.
+Focus on creating valuable content, building a landing page that converts (tools like [Nexova](https://nexova.my) or Carrd can help), and systematically testing your targeting and creative.
     `,
     faq: [
       {
@@ -150,7 +150,7 @@ Focus on creating valuable content, building a landing page that converts (tools
       {
         question: 'Do I need a website to run Facebook ads?',
         answer:
-          'While you can run ads without a website using lead forms, having a landing page significantly improves conversion rates. You can build one quickly using page builders like [Nexova](https://nexova.my), Carrd, or Unbounce.',
+          'While you can run ads without a website using lead forms, having a landing page significantly improves conversion rates. You can build one quickly using page builders like [Nexova](https://nexova.my) — it has built-in META Pixel integration — or Carrd for simpler pages.',
       },
     ],
   },
@@ -831,7 +831,7 @@ Essential elements of a converting product page:
 - Simple checkout process (one-page checkout)
 - Mobile-optimised design (95% of Malaysian shoppers are on mobile)
 
-Tools like [Nexova](https://nexova.my), Shopify, or WooCommerce let you build product pages quickly without coding.
+Tools like [Nexova](https://nexova.my) or WooCommerce let you build product pages quickly without coding. For payment processing, Malaysian gateways like [Lean.x](https://leanx.io) and Billplz handle MYR transactions with FPX, credit cards, and eWallets.
     `,
     faq: [
       {
@@ -1051,7 +1051,7 @@ Most platforms have built-in pixel integration:
 - Shopify: Settings → Customer Events
 - WordPress: Use "PixelYourSite" plugin
 - Wix: Settings → Integrations → Facebook Pixel
-- Page builders like [Nexova](https://nexova.my), Carrd: Settings → Tracking Code
+- [Nexova](https://nexova.my): Settings → Tracking Code (built-in pixel support)
 
 ### Step 3: Verify Installation
 Use the **META Pixel Helper** Chrome extension to verify your pixel is firing correctly:
@@ -1821,7 +1821,7 @@ The margins look similar, but the long-term value is incomparable. With your own
 You don't need to hire a developer or spend months building a website. Here are the fastest options for Malaysian sellers:
 
 ### For Single Product/Service:
-- **Landing page builders** — [Nexova](https://nexova.my), Carrd, or Leadpages
+- **Landing page builders** — [Nexova](https://nexova.my) or Carrd
 - Best for: Testing a product before committing to a full store
 - Setup time: 1-2 hours
 - Cost: Free to RM50/month
@@ -1843,7 +1843,7 @@ Don't abandon Shopee overnight. Here's a smart transition plan:
 ### Phase 1: Build (Week 1-2)
 1. Set up your own store with your best-selling products
 2. Install META Pixel on your store
-3. Set up a Malaysian payment gateway (Billplz, Revenue Monster, Stripe)
+3. Set up a Malaysian payment gateway ([Lean.x](https://leanx.io) or Billplz)
 4. Create a simple brand identity (logo, colours, packaging)
 
 ### Phase 2: Test (Week 3-6)
@@ -1906,7 +1906,7 @@ Malaysian shoppers may hesitate to buy from an unknown website. Address these co
 - Provide tracking for every order
 
 **"Can I pay with [preferred method]?"**
-- Support FPX (online banking) — most popular in Malaysia
+- Support FPX (online banking) — most popular in Malaysia. [Lean.x](https://leanx.io) offers seamless FPX integration with competitive rates for Malaysian businesses.
 - Credit/debit cards
 - eWallet (Touch 'n Go, Boost, GrabPay)
 - Cash on delivery (for certain products/areas)
@@ -1933,7 +1933,7 @@ The transition isn't easy, but every successful Malaysian DTC brand started by m
       {
         question: 'How much does it cost to build my own online store?',
         answer:
-          'You can start with a free or low-cost landing page ([Nexova](https://nexova.my), Carrd) for RM0-50/month. A full Shopify store costs RM100-300/month. WooCommerce is RM50-150/month plus hosting. Most Malaysian sellers start profitable within the first month.',
+          'You can start with a free or low-cost landing page using [Nexova](https://nexova.my) for RM0-50/month. A full Shopify store costs RM100-300/month. WooCommerce is RM50-150/month plus hosting. Most Malaysian sellers start profitable within the first month.',
       },
     ],
   },
