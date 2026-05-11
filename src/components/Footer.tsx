@@ -75,7 +75,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link to="/" className="flex items-center">
-              <img src="/fbads-logo.png" alt="FBAds.my" className="h-7" />
+              <img src="/fbads-logo-white.png" alt="FBAds.my" className="h-7" />
             </Link>
             <p className="mt-4 text-sm text-white/40 leading-relaxed">
               We help businesses grow with data-driven Facebook &amp; Instagram ad strategies that deliver real results.
