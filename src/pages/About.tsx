@@ -61,18 +61,20 @@ export default function About() {
             { value: 'RM2M+', label: 'Ad spend managed' },
           ].map((stat, i) => (
             <Reveal key={stat.label} delay={i * 100}>
-              <div className="bg-gray-50 rounded-xl p-5 text-center">
-                <div className="text-2xl font-extrabold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              <div className="p-[1px] rounded-xl bg-gradient-to-br from-primary/30 to-secondary/30 hover:from-primary hover:to-secondary transition-all duration-500">
+              <div className="bg-white/80 backdrop-blur-md rounded-[11px] p-5 text-center">
+                <div className="text-2xl font-semibold tracking-tight bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                   {stat.value}
                 </div>
                 <div className="text-sm text-gray-500 mt-1">{stat.label}</div>
+              </div>
               </div>
             </Reveal>
           ))}
         </div>
 
         <Reveal delay={100}>
-          <div className="mt-12 bg-gray-50 rounded-2xl p-6 md:p-8">
+          <div className="mt-12 bg-white/60 backdrop-blur-md border border-primary/20 rounded-xl p-6 md:p-8">
             <h2 className="text-lg font-bold text-gray-900">My Approach</h2>
             <ul className="mt-4 space-y-3 text-gray-600 text-sm">
               <li className="flex gap-3">

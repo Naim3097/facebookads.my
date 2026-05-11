@@ -3,7 +3,8 @@ import type { Article } from '../data/articles.tsx';
 
 export default function BlogCard({ article }: { article: Article }) {
   return (
-    <article className="group bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow">
+    <div className="p-[1px] rounded-xl bg-gradient-to-br from-primary/30 to-secondary/30 hover:from-primary hover:to-secondary transition-all duration-500 hover:shadow-lg group">
+    <article className="bg-white/80 backdrop-blur-md rounded-[11px] overflow-hidden">
       <div className="relative h-56 overflow-hidden">
         <img
           src={article.image}
@@ -36,5 +37,6 @@ export default function BlogCard({ article }: { article: Article }) {
         </div>
       </div>
     </article>
+    </div>
   );
 }

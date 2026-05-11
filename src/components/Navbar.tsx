@@ -14,7 +14,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+    <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-xl border-b border-white/40">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         <Link to="/" className="flex items-center">
           <img src="/fbads-logo.png" alt="FBAds.my" className="h-8" />
@@ -37,6 +37,17 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+
+        {/* Desktop CTA */}
+        <Link
+          to="/contact"
+          className="hidden md:inline-flex items-center gap-1.5 px-5 py-2 bg-primary text-white text-sm font-semibold rounded-full hover:bg-primary-dark transition-colors"
+        >
+          Get Free Audit
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </Link>
 
         {/* Mobile hamburger */}
         <button

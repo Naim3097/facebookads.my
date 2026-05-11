@@ -2,14 +2,15 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --color-primary: #7C3AED;
-  --color-primary-dark: #6D28D9;
-  --color-primary-light: #A78BFA;
-  --color-secondary: #EC4899;
-  --color-secondary-dark: #DB2777;
-  --color-accent: #F59E0B;
-  --color-surface: #F8FAFC;
+  --color-primary: #5FC7CD;
+  --color-primary-dark: #37B2DA;
+  --color-primary-light: #5BC5CD;
+  --color-secondary: #8273B5;
+  --color-secondary-dark: #6B5FA0;
+  --color-accent: #FFCE33;
+  --color-surface: #FCFDFF;
   --color-surface-dark: #F1F5F9;
+  --color-dark: #455263;
   --font-sans: "Urbanist", system-ui, -apple-system, sans-serif;
 }
 
@@ -24,7 +25,7 @@ body {
 }
 
 ::selection {
-  background-color: #7C3AED;
+  background-color: #5FC7CD;
   color: white;
 }
 
@@ -35,13 +36,13 @@ body {
 }
 
 main {
-  animation: pageIn 0.4s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+  animation: pageIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
 
 /* Stagger children in grids */
 .stagger > * {
   opacity: 0;
-  animation: staggerIn 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+  animation: staggerIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
 .stagger > *:nth-child(1) { animation-delay: 0ms; }
 .stagger > *:nth-child(2) { animation-delay: 80ms; }
