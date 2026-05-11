@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-xl border-b border-white/40">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         <Link to="/" className="flex items-center">
-          <img src="/fbads-logo.png" alt="FBAds.my" className="h-8" />
+          <img src="/fbads-logo.png" alt="FBAds.my" className="h-6 md:h-8" />
         </Link>
 
         {/* Desktop nav */}

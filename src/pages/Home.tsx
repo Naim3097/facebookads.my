@@ -208,9 +208,9 @@ export default function Home() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-20 md:py-32 lg:py-36">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left */}
-            <div>
+            <div className="text-center md:text-left">
               <Reveal delay={100} direction="none">
-                <span className="inline-block px-3 py-1 border border-white/40 text-white bg-white/10 backdrop-blur-sm rounded-full text-xs font-medium mb-6 tracking-wide">
+                <span className="inline-block px-3 py-1 border border-white/40 text-white bg-white/10 backdrop-blur-sm rounded-full text-xs font-medium mb-6 tracking-wide mx-auto md:mx-0">
                   Performance-Driven Ad Campaigns
                 </span>
               </Reveal>
@@ -225,13 +225,13 @@ export default function Home() {
               </Reveal>
 
               <Reveal delay={300}>
-                <p className="mt-5 text-base md:text-lg text-white/75 leading-relaxed max-w-md">
+                <p className="mt-5 text-base md:text-lg text-white/75 leading-relaxed max-w-md mx-auto md:mx-0">
                   Data-driven strategies, high-converting creatives, and targeting that help you get the most out of META advertising.
                 </p>
               </Reveal>
 
               <Reveal delay={420}>
-                <div className="mt-8 flex flex-wrap gap-3">
+                <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
                   <Link
                     to="/contact"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-full hover:bg-primary-dark transition-colors text-sm shadow-lg shadow-primary/25"
@@ -255,7 +255,7 @@ export default function Home() {
 
               {/* Partner badges */}
               <Reveal delay={520}>
-                <div className="mt-8 flex items-center gap-4">
+                <div className="mt-8 flex items-center gap-4 justify-center md:justify-start">
                   <div className="flex items-center gap-2 px-3 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg">
                     <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none">
                       <rect width="24" height="24" rx="4" fill="#1877F2"/>
