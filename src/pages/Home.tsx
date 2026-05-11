@@ -296,7 +296,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-gray-100">
             {STATS.map((stat) => (
               <Reveal key={stat.label}>
-                <div className="flex items-center gap-4 px-6 py-4 sm:py-2">
+                <div className="flex flex-col sm:flex-row items-center sm:items-center gap-3 sm:gap-4 px-6 py-4 sm:py-2 text-center sm:text-left">
                   <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
                     {stat.icon}
                   </div>
