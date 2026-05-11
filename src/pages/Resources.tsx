@@ -45,7 +45,7 @@ export default function Resources() {
 
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-16">
         <Reveal>
-          <h1 className="text-3xl md:text-4xl font-light tracking-tight text-gray-900">Free Resources</h1>
+          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900">Free Resources</h1>
           <p className="text-gray-500 mt-2 max-w-lg">
             Download checklists, templates, and reports to level up your META advertising. All free, no signup needed.
           </p>

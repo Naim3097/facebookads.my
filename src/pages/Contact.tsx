@@ -11,7 +11,7 @@ export default function Contact() {
         canonical="/contact"
       />
 
-      <section className="max-w-3xl mx-auto px-4 sm:px-6 py-12 md:py-16">
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-16">
         <Reveal>
           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900">Contact</h1>
           <p className="text-gray-500 mt-2">

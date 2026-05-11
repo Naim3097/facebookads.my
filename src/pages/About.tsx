@@ -20,18 +20,18 @@ export default function About() {
         schema={personSchema}
       />
 
-      <section className="max-w-3xl mx-auto px-4 sm:px-6 py-12 md:py-16">
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-16">
         <Reveal>
           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900">About</h1>
+          <p className="mt-3 text-gray-500 leading-relaxed max-w-xl">
+            The person behind FacebookAds.my — a META ads specialist helping Malaysian businesses grow with data-driven Facebook &amp; Instagram advertising.
+          </p>
         </Reveal>
 
         <Reveal delay={150}>
-          <div className="mt-8 flex flex-col md:flex-row gap-8 items-start">
-            <div className="w-24 h-24 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-3xl font-bold flex-shrink-0">
-              AR
-            </div>
+          <div className="mt-10 flex flex-col md:flex-row gap-8 items-start">
             <div>
-              <h2 className="text-xl font-bold text-gray-900">Aiman Rizq</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Aiman Rizq</h2>
               <p className="text-primary font-medium text-sm">META Ads Strategist</p>
               <div className="mt-4 space-y-4 text-gray-600 leading-relaxed">
                 <p>

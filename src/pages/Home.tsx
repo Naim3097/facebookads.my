@@ -324,7 +324,7 @@ export default function Home() {
           {AD_FORMATS.map((format, i) => (
             <Reveal key={format.title} delay={i * 100}>
               <div className="group">
-                <div className="relative overflow-hidden rounded-xl aspect-video bg-gray-100">
+                <div className="relative overflow-hidden rounded-xl aspect-[4/5] bg-gray-100">
                   <img
                     src={format.image}
                     alt={format.title}
