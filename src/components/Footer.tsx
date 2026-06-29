@@ -22,7 +22,7 @@ const FOOTER_LINKS = [
     links: [
       { href: 'https://business.facebook.com', label: 'META Business Suite', external: true },
       { href: 'https://canva.com', label: 'Canva', external: true },
-      { href: 'https://nexova.my', label: 'Minea', external: true, nofollow: true },
+      { href: 'https://nexova.my', label: 'Nexova.my', external: true },
       { href: 'https://analytics.google.com', label: 'Google Analytics 4', external: true },
     ],
   },

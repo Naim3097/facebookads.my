@@ -74,3 +74,34 @@ a[class*="rounded-full"]:hover {
 a[class*="rounded-full"] {
   transition: all 0.2s ease;
 }
+
+/* ── Free Audit page motion (scoped, additive — fa- prefix only) ── */
+@keyframes faFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes faFloatSlow { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-16px); } }
+@keyframes faGlow { 0%, 100% { opacity: 0.4; transform: scale(1); } 50% { opacity: 0.8; transform: scale(1.06); } }
+@keyframes faShimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+
+.fa-float { animation: faFloat 6s ease-in-out infinite; }
+.fa-float-slow { animation: faFloatSlow 8s ease-in-out infinite; }
+.fa-glow { animation: faGlow 6s ease-in-out infinite; }
+
+/* Sheen sweep on hover (add .fa-sheen to a relative, overflow-hidden element) */
+.fa-sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.45) 50%, transparent 70%);
+  background-size: 200% 100%;
+  background-position: -200% 0;
+  opacity: 0;
+  pointer-events: none;
+}
+.fa-sheen:hover::after {
+  opacity: 1;
+  animation: faShimmer 0.9s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-float, .fa-float-slow, .fa-glow { animation: none; }
+  .fa-sheen:hover::after { animation: none; opacity: 0; }
+}

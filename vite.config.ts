@@ -7,4 +7,9 @@ export default defineConfig({
   build: {
     minify: true,
   },
+  // Bundle the CommonJS helmet lib into the SSR build so its named exports
+  // resolve under Node ESM (used only by `build:ssr` / prerender).
+  ssr: {
+    noExternal: ['react-helmet-async'],
+  },
 });

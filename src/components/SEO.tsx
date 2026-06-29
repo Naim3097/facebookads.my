@@ -15,6 +15,10 @@ interface SEOProps {
   };
   schema?: object | object[];
   noindex?: boolean;
+  /** hreflang alternates, e.g. [{ hreflang: 'en-MY', href: '/free-audit/en' }] */
+  alternates?: { hreflang: string; href: string }[];
+  /** <html lang> value */
+  htmlLang?: string;
 }
 
 const SITE_URL = 'https://facebookads.my';
@@ -29,6 +33,8 @@ export default function SEO({
   article,
   schema,
   noindex = false,
+  alternates,
+  htmlLang,
 }: SEOProps) {
   const fullTitle = title === 'Home'
     ? 'FacebookAds.my — META Ads Strategies & Guides'
@@ -40,10 +46,14 @@ export default function SEO({
 
   return (
     <Helmet>
+      {htmlLang && <html lang={htmlLang} />}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       {noindex && <meta name="robots" content="noindex, nofollow" />}
       {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+      {alternates?.map((a) => (
+        <link key={a.hreflang} rel="alternate" hrefLang={a.hreflang} href={`${SITE_URL}${a.href}`} />
+      ))}
 
       {/* Open Graph */}
       <meta property="og:title" content={fullTitle} />

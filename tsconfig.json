@@ -20,5 +20,7 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "comment": "entry-server.tsx is a Node/SSR file compiled by Vite (esbuild), not the app tsc.",
+  "exclude": ["src/entry-server.tsx"]
 }

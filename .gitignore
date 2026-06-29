@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Source / working files (not for the public repo)
+*.pdf
+/Izzad*.jpeg
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

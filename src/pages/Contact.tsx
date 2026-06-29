@@ -1,5 +1,5 @@
 import SEO from '../components/SEO.tsx';
-import ContactForm from '../components/ContactForm.tsx';
+import LeadForm from '../components/LeadForm.tsx';
 import Reveal from '../components/Reveal.tsx';
 
 export default function Contact() {
@@ -21,7 +21,7 @@ export default function Contact() {
 
         <div className="mt-10 grid md:grid-cols-5 gap-10">
           <Reveal delay={100} className="md:col-span-3">
-            <ContactForm />
+            <LeadForm source="FacebookAds.my — Contact page" />
           </Reveal>
           <div className="md:col-span-2 space-y-6">
             <Reveal delay={150}>

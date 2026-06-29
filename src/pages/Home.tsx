@@ -176,7 +176,7 @@ export default function Home() {
       <SEO
         title="Home"
         description="Learn how to run profitable Facebook and Instagram ads for your Malaysian business. Free guides, strategies, and benchmarks from a META ads specialist."
-        canonical="/"
+        canonical="/home"
         schema={[orgSchema, websiteSchema]}
       />
 
@@ -233,7 +233,7 @@ export default function Home() {
               <Reveal delay={420}>
                 <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
                   <Link
-                    to="/contact"
+                    to="/free-audit"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-full hover:bg-primary-dark transition-colors text-sm shadow-lg shadow-primary/25"
                   >
                     Get Free Audit
@@ -412,7 +412,7 @@ export default function Home() {
               </div>
               <div className="flex-shrink-0 flex items-center gap-3 flex-wrap justify-center">
                 <Link
-                  to="/contact"
+                  to="/free-audit"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-full hover:bg-gray-100 transition-colors text-sm shadow-lg"
                 >
                   Get Free Audit

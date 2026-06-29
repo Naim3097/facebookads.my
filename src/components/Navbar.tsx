@@ -40,7 +40,7 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <Link
-          to="/contact"
+          to="/free-audit"
           className="hidden md:inline-flex items-center gap-1.5 px-5 py-2 bg-primary text-white text-sm font-semibold rounded-full hover:bg-primary-dark transition-colors"
         >
           Get Free Audit
@@ -99,6 +99,15 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                to="/free-audit"
+                onClick={() => setOpen(false)}
+                className="block px-4 py-2.5 mt-1 rounded-full text-sm font-semibold text-center bg-primary text-white"
+              >
+                Get Free Audit →
+              </Link>
+            </li>
           </ul>
         </div>
       )}
